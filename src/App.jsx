@@ -19,10 +19,10 @@ function App() {
 
         revealElements.forEach((el) => {
             gsap.fromTo(el,
-                { y: 50, opacity: 0 },
+                { y: 50, autoAlpha: 0 },
                 {
                     y: 0,
-                    opacity: 1,
+                    autoAlpha: 1,
                     duration: 1,
                     ease: 'power3.out',
                     scrollTrigger: {
